@@ -35,8 +35,9 @@ class MyTableViewController: UITableViewController {
                 
         let treeStr = "tree\(indexPath.row + 1)"
         cell.myImage.image = UIImage(named: treeStr)
-        cell.myLabel.text = treeStr
-        
+        if cell.myLabel.text == "Label" {
+        cell.myLabel.text = "\(indexPath.row + 1)"
+        }
         return cell
     }
     
