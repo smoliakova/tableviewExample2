@@ -12,6 +12,7 @@
 		49DA7C04207EAB94008A2A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DA7C03207EAB94008A2A41 /* Assets.xcassets */; };
 		49DA7C07207EAB94008A2A41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DA7C05207EAB94008A2A41 /* LaunchScreen.storyboard */; };
 		49DA7C0F207EABDD008A2A41 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA7C0E207EABDD008A2A41 /* MyTableViewController.swift */; };
+		49DA7C11207EB26B008A2A41 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA7C10207EB26B008A2A41 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		49DA7C06207EAB94008A2A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49DA7C08207EAB94008A2A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49DA7C0E207EABDD008A2A41 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		49DA7C10207EB26B008A2A41 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				49DA7C0E207EABDD008A2A41 /* MyTableViewController.swift */,
 				49DA7BFC207EAB93008A2A41 /* AppDelegate.swift */,
 				49DA7C00207EAB93008A2A41 /* Main.storyboard */,
+				49DA7C10207EB26B008A2A41 /* MyTableViewCell.swift */,
 				49DA7C03207EAB94008A2A41 /* Assets.xcassets */,
 				49DA7C05207EAB94008A2A41 /* LaunchScreen.storyboard */,
 				49DA7C08207EAB94008A2A41 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				49DA7BFD207EAB93008A2A41 /* AppDelegate.swift in Sources */,
 				49DA7C0F207EABDD008A2A41 /* MyTableViewController.swift in Sources */,
+				49DA7C11207EB26B008A2A41 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

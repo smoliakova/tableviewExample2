@@ -31,11 +31,11 @@ class MyTableViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-      let cell = tableView.dequeueReusableCell(withIdentifier: "storyboardReuseIdCell", for: indexPath)
+      let cell = tableView.dequeueReusableCell(withIdentifier: "storyboardReuseIdCell", for: indexPath) as! MyTableViewCell
                 
         let treeStr = "tree\(indexPath.row + 1)"
-        cell.imageView?.image = UIImage(named: treeStr)
-        cell.textLabel?.text = treeStr
+        cell.myImage.image = UIImage(named: treeStr)
+        cell.myLabel.text = treeStr
         
         return cell
     }
